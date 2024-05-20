@@ -10,8 +10,7 @@ const errorMiddleware = require("./middlewares/error-middlewares");
 
 // lets tackle cors
 const corsOption = {
-  origin:
-    "https://664acd8b977ec65359152340--cheerful-paletas-10a971.netlify.app",
+  origin: "https://mern-by-amit-kumar.netlify.app",
   method: "GET, POST, PUT, DELETE,PATCH,HEAD",
   credentials: true,
 };
