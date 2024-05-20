@@ -10,7 +10,8 @@ const errorMiddleware = require("./middlewares/error-middlewares");
 
 // lets tackle cors
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin:
+    "https://664acd8b977ec65359152340--cheerful-paletas-10a971.netlify.app",
   method: "GET, POST, PUT, DELETE,PATCH,HEAD",
   credentials: true,
 };
